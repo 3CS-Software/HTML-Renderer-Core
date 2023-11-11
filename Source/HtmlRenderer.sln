@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29613.14
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34227.203
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{E263EA16-2E6A-4269-A319-AA2F97ADA8E1}"
 EndProject
@@ -29,6 +29,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlRenderer.Core", "HtmlRenderer.Core\HtmlRenderer.Core.csproj", "{19984DE1-1F95-43D9-84B3-6BF233FCECA9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlRenderer.PdfSharp.Core", "HtmlRenderer.PdfSharp.Core\HtmlRenderer.PdfSharp.Core.csproj", "{D7BF9146-867B-472F-BB83-F72EA56E3945}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlRenderer.Demo.Console", "Demo\Console\HtmlRenderer.Demo.Console\HtmlRenderer.Demo.Console.csproj", "{599EC554-42E0-4CBD-8C1E-BF3E8CECB5A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlRenderer.SkiaSharp", "HtmlRenderer.SkiaSharp\HtmlRenderer.SkiaSharp.csproj", "{3E96A32C-197C-4823-9C04-BF637DB970E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -134,6 +138,30 @@ Global
 		{D7BF9146-867B-472F-BB83-F72EA56E3945}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{D7BF9146-867B-472F-BB83-F72EA56E3945}.Release|x86.ActiveCfg = Release|Any CPU
 		{D7BF9146-867B-472F-BB83-F72EA56E3945}.Release|x86.Build.0 = Release|Any CPU
+		{599EC554-42E0-4CBD-8C1E-BF3E8CECB5A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{599EC554-42E0-4CBD-8C1E-BF3E8CECB5A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{599EC554-42E0-4CBD-8C1E-BF3E8CECB5A9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{599EC554-42E0-4CBD-8C1E-BF3E8CECB5A9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{599EC554-42E0-4CBD-8C1E-BF3E8CECB5A9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{599EC554-42E0-4CBD-8C1E-BF3E8CECB5A9}.Debug|x86.Build.0 = Debug|Any CPU
+		{599EC554-42E0-4CBD-8C1E-BF3E8CECB5A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{599EC554-42E0-4CBD-8C1E-BF3E8CECB5A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{599EC554-42E0-4CBD-8C1E-BF3E8CECB5A9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{599EC554-42E0-4CBD-8C1E-BF3E8CECB5A9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{599EC554-42E0-4CBD-8C1E-BF3E8CECB5A9}.Release|x86.ActiveCfg = Release|Any CPU
+		{599EC554-42E0-4CBD-8C1E-BF3E8CECB5A9}.Release|x86.Build.0 = Release|Any CPU
+		{3E96A32C-197C-4823-9C04-BF637DB970E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E96A32C-197C-4823-9C04-BF637DB970E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E96A32C-197C-4823-9C04-BF637DB970E1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3E96A32C-197C-4823-9C04-BF637DB970E1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3E96A32C-197C-4823-9C04-BF637DB970E1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3E96A32C-197C-4823-9C04-BF637DB970E1}.Debug|x86.Build.0 = Debug|Any CPU
+		{3E96A32C-197C-4823-9C04-BF637DB970E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E96A32C-197C-4823-9C04-BF637DB970E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E96A32C-197C-4823-9C04-BF637DB970E1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3E96A32C-197C-4823-9C04-BF637DB970E1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3E96A32C-197C-4823-9C04-BF637DB970E1}.Release|x86.ActiveCfg = Release|Any CPU
+		{3E96A32C-197C-4823-9C04-BF637DB970E1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -142,6 +170,7 @@ Global
 		{2390B71F-9400-47F4-B23A-7F2649C87D35} = {E263EA16-2E6A-4269-A319-AA2F97ADA8E1}
 		{8AD34FE8-8382-4A8A-B3AA-A0392ED42423} = {E263EA16-2E6A-4269-A319-AA2F97ADA8E1}
 		{F02E0216-4AE3-474F-9381-FCB93411CDB0} = {E263EA16-2E6A-4269-A319-AA2F97ADA8E1}
+		{599EC554-42E0-4CBD-8C1E-BF3E8CECB5A9} = {E263EA16-2E6A-4269-A319-AA2F97ADA8E1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2169EDEB-46C2-46B7-AB8E-C3ECC7B5568D}
