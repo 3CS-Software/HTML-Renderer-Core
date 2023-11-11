@@ -109,3 +109,4 @@ UpgradeLog*.XML
 
 *.DotSettings
 /Source/.vs/
+/Source/Demo/Console/HtmlRenderer.Demo.Console/Output
